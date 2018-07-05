@@ -1,0 +1,98 @@
+$("documents").ready(function(){
+  $(".clickable").click(function(){
+    $("#js").click(function(){
+      $("#jss").show();
+    });
+    $("#jss").click(function(){
+      $("#jss").hide();
+    });
+  });
+$(".clickable1").click(function(){
+    $("#ops").click(function(){
+      $("#ope").show();
+    });
+    $("#ope").click(function(){
+      $("#ope").hide();
+  });
+});
+$(".clickable2").click(function(){
+    $("#var").click(function(){
+      $("#vari").show();
+    });
+    $("#vari").click(function(){
+      $("#vari").hide();
+  });
+});
+$(".clickable2").click(function(){
+    $("#fun").click(function(){
+      $("#func").show();
+    });
+    $("#func").click(function(){
+      $("#func").hide();
+  });
+});
+$(".clickable2").click(function(){
+    $("#str").click(function(){
+      $("#stri").show();
+    });
+    $("#stri").click(function(){
+      $("#stri").hide();
+  });
+});
+$(".clickable2").click(function(){
+    $("#met").click(function(){
+      $("#meth").show();
+    });
+    $("#meth").click(function(){
+      $("#meth").hide();
+  });
+});
+$(".clickable2").click(function(){
+    $("#arg").click(function(){
+      $("#argu").show();
+    });
+    $("#argu").click(function(){
+      $("#argu").hide();
+  });
+});
+$(".clickable2").click(function(){
+    $("#par").click(function(){
+      $("#para").show();
+    });
+    $("#para").click(function(){
+      $("#para").hide();
+  });
+});
+$(".clickable2").click(function(){
+    $("#ret").click(function(){
+      $("#retu").show();
+    });
+    $("#retu").click(function(){
+      $("#retu").hide();
+  });
+});
+$(".clickable2").click(function(){
+    $("#com").click(function(){
+      $("#comm").show();
+    });
+    $("#comm").click(function(){
+      $("#comm").hide();
+  });
+});
+$(".clickable2").click(function(){
+    $("#jq").click(function(){
+      $("#jqu").show();
+    });
+    $("#jqu").click(function(){
+      $("#jqu").hide();
+  });
+});
+$(".clickable2").click(function(){
+    $("#att").click(function(){
+      $("#attr").show();
+    });
+    $("#attr").click(function(){
+      $("#attr").hide();
+  });
+});
+});
